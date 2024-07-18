@@ -10,9 +10,7 @@ export async function Login(formData: FormData) {
   // Sign in with OAuth - Google
   const { data, error } = await supabase.auth.signInWithOAuth({
     provider: "google",
-    options: {
-      redirectTo: `https://pickup-line-generator-using-open-api.vercel.app/auth/callback`,
-    },
+    options: { redirectTo: `${process.env.NEXT_PUBLIC_APP_URL}/auth/callback` },
   });
 
   if (error) {
