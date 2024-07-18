@@ -14,6 +14,7 @@ export default function Home() {
           className="object-cover object-center"
           quality={100}
           priority
+          sizes="100vw"
         />
       </div>
 
@@ -26,6 +27,7 @@ export default function Home() {
           className="rounded-3xl object-cover object-center"
           quality={100}
           priority
+          sizes="100vw"
         />
         <div className="relative -left-2 z-10 flex w-full flex-col items-center justify-center gap-16 p-8 text-center">
           <div className="mb-12 mt-2">
