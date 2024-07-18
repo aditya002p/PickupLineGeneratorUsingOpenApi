@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/(user)/generate/page": "app/(user)/generate/page.js",
-  "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/(auth)/auth/callback/route": "app/(auth)/auth/callback/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}
