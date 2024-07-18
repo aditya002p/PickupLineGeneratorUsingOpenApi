@@ -11,7 +11,7 @@ export async function Login(formData: FormData) {
   const { data, error } = await supabase.auth.signInWithOAuth({
     provider: "google",
     options: {
-      redirectTo: `${process.env.NEXT_PUBLIC_APP_URL!}/auth/callback`,
+      redirectTo: `https://pickup-line-generator-using-open-api.vercel.app/auth/callback`,
     },
   });
 
