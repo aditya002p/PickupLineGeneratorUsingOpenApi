@@ -9,12 +9,12 @@
 Generate creative pickup lines based on your crush's description and preferred style!
 <br/>
 <br/>
-<a href="https://github.com/aditya002p/PickupLineGenerator"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/aditya002p/PickupLineGeneratorUsingOpenApi"><strong>Explore the docs »</strong></a>
 <br/>
 <br/>
-<a href="https://pickup-line-generator.vercel.app">View Demo</a> ·
-<a href="https://github.com/aditya002p/PickupLineGenerator/issues">Report Bug</a> ·
-<a href="https://github.com/aditya002p/PickupLineGenerator/issues">Request Feature</a>
+<a href="">View Demo</a> ·
+<a href="https://github.com/aditya002p/PickupLineGeneratorUsingOpenApi/issues">Report Bug</a> ·
+<a href="https://github.com/aditya002p/PickupLineGeneratorUsingOpenApi/issues">Request Feature</a>
 </p>
 </div>
 
@@ -60,7 +60,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/aditya002p/PickupLineGenerator
+   git clone https://github.com/aditya002p/PickupLineGeneratorUsingOpenApi
    ```
 2. Install NPM packages
    ```sh
@@ -95,7 +95,7 @@ To get a local copy up and running, follow these simple steps.
 - [ ] Add social sharing features
 - [ ] Expand language support for international users
 
-See the [open issues](https://github.com/aditya002p/PickupLineGenerator/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/aditya002p/PickupLineGeneratorUsingOpenApi/issues) for a full list of proposed features (and known issues).
 
 ## Contributing
 
@@ -111,7 +111,7 @@ Contributions are what make the open source community such an amazing place to l
 
 Aditya Kumar Pathak - [@Aditya](https://x.com/Adi_19Pathak) - aditya.pathak902@gmail.com
 
-Project Link: [https://github.com/aditya002p/PickupLineGenerator](https://github.com/aditya002p/PickupLineGenerator)
+Project Link: [https://github.com/aditya002p/PickupLineGeneratorUsingOpenApi](https://github.com/aditya002p/PickupLineGeneratorUsingOpenApi)
 
 ## Acknowledgments
 
