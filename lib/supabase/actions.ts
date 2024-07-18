@@ -1,8 +1,11 @@
 "use server";
 
+import dotenv from "dotenv";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { createClient } from "./server";
+
+dotenv.config();
 
 export async function Login(formData: FormData) {
   const supabase = createClient();
@@ -11,8 +14,7 @@ export async function Login(formData: FormData) {
   const { data, error } = await supabase.auth.signInWithOAuth({
     provider: "google",
     options: {
-      redirectTo:
-        "https://pickup-line-generator-using-open-api.vercel.app/api/callback",
+      redirectTo: `${process.env.NEXT_PUBLIC_APP_URL!}/auth/callback`,
     },
   });
 
